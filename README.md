@@ -14,6 +14,6 @@ Since Ansible is used, the process needs to be run from either a Linux machine, 
 
 ## AWS
 
-The AWS setup just uses a single VM in a public subnet in its own VPC, with UPD open on 10666. The machine type isn't optimised yet for what's required to run an Odamex server. This will follow shortly.
+The AWS setup just uses a single VM in a public subnet in its own VPC, with UDP open on 10666. The machine type isn't optimised yet for what's required to run an Odamex server. This will follow shortly.
 
 To build the server on AWS, just run `make odamex-server-aws`.
